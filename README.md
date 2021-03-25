@@ -1,4 +1,6 @@
 ## Taro de 入门学习
+.
+.
 ### 初步计划
     
     1. react + Taro 
