@@ -1,9 +1,8 @@
 ## Taro de 入门学习
 ### 初步计划
     
-    1. react + Taro 
-    2. reactHooks + Taro 
-    3. reactHooks + Ts + Taro 
+    1. reactHooks + Taro 
+    2. reactHooks + Ts + Taro 
     
 ### 安排
 
