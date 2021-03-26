@@ -12,11 +12,14 @@ function Index(){
     setFromPage(Current.router.params.pagename);
     setIntroduce(Current.router.params.introduce);
   },[])
+  const toBlogF = ()=>{
+    Taro.navigateTo({url:'/pages/blog/blog'})
+  }
   return (
     <View>
       <Text>{userName}</Text>
       <Child userName={userName}></Child>
-      <Button>toBlog</Button>
+      <Button onClick={toBlogF}>toBlog</Button>
       <View>{fromPage}</View>
       <View>{introduce}</View>
       <View><Image src={newbbd} width='100px' height='100px'/></View>
